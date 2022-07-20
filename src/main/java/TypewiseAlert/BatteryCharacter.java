@@ -1,7 +1,7 @@
-package typewisealert;
+package Typewisealert;
 
-import typewisealert.constants.BreachType;
-import typewisealert.constants.CoolingType;
+import Typewisealert.constants.BreachType;
+import Typewisealert.constants.CoolingType;
 
 public class BatteryCharacter {
 	public CoolingType coolingType;
