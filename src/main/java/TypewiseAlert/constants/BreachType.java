@@ -1,4 +1,4 @@
-package Typewisealert.constants;
+package TypewiseAlert.constants;
 
 public enum BreachType {
 	NORMAL, TOO_LOW, TOO_HIGH;
