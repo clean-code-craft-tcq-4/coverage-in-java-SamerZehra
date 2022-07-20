@@ -1,8 +1,8 @@
-package typewisealert;
+package Typewisealert;
 
-import typewisealert.constants.AlertTarget;
-import typewisealert.constants.BreachType;
-import typewisealert.constants.CoolingType;
+import Typewisealert.constants.AlertTarget;
+import Typewisealert.constants.BreachType;
+import Typewisealert.constants.CoolingType;
 
 public class TypewiseAlert {
     
