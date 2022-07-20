@@ -1,4 +1,4 @@
-package typewisealert.constants;
+package TypewiseAlert.constants;
 
 public enum AlertTarget {
 	 TO_CONTROLLER,
