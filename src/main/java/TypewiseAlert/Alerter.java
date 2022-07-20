@@ -1,6 +1,6 @@
-package Typewisealert;
+package TypewiseAlert;
 
-import Typewisealert.constants.BreachType;
+import TypewiseAlert.constants.BreachType;
 
 public class Alerter {
 
