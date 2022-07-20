@@ -6,11 +6,11 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 
-import Typewisealert.BatteryCharacter;
-import Typewisealert.TypewiseAlert;
-import Typewisealert.constants.AlertTarget;
-import Typewisealert.constants.BreachType;
-import Typewisealert.constants.CoolingType;
+import TypewiseAlert.BatteryCharacter;
+import TypewiseAlert.TypewiseAlert;
+import TypewiseAlert.constants.AlertTarget;
+import TypewiseAlert.constants.BreachType;
+import TypewiseAlert.constants.CoolingType;
 
 public class TypewiseAlertTest {
 	
