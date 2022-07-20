@@ -4,25 +4,27 @@ import Typewisealert.constants.BreachType;
 
 public class Alerter {
 
-	public static void sendToController(BreachType breachType) {
+	
+
+	public static boolean sendToController(BreachType breachType) {
 		int header = 0xfeed;
-		System.out.print(header);
-		System.out.println(" \n " + breachType);
+		printControllerAlert(header, breachType);
+		return true;
 	}
 
-	public static void sendToEmail(BreachType breachType) {
+	public static boolean sendToEmail(BreachType breachType) {
 		String recepient = "a.b@c.com";
-		switch (breachType) {
-		case TOO_LOW:
-			System.out.printf("To: %s\n", recepient);
-			System.out.println("Hi, the temperature is too low\n");
-			break;
-		case TOO_HIGH:
-			System.out.printf("To: %s\n", recepient);
-			System.out.println("Hi, the temperature is too high\n");
-			break;
-		case NORMAL:
-			break;
-		}
+		printEmailAlert(recepient, breachType.name());
+		return true;
 	}
+
+	private static void printEmailAlert(String recepient, String contetnt) {
+		System.out.printf("To: %s\n", recepient);
+		System.out.println("Hi, the temperature is \t" + contetnt + "\n");
+	}
+
+	private static void printControllerAlert(int header, BreachType breachType) {
+		System.out.println( header + ":"+ breachType);
+	}
+
 }
